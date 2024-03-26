@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Pictures/IDB_AN_DOWN_Yellow.jpg</file>
+        <file>Pictures/IDB_AN_UP_White.jpg</file>
+        <file>Pictures/LED_Black.jpg</file>
+        <file>Pictures/LED_Green.jpg</file>
+        <file>Pictures/LED_Red.jpg</file>
+        <file>Pictures/LED_White.jpg</file>
+        <file>Pictures/LED_Yellow.jpg</file>
+        <file>Pictures/ALeftGray.jpg</file>
+        <file>Pictures/ALeftGrayA.jpg</file>
+        <file>Pictures/ALeftGreen.jpg</file>
+        <file>Pictures/ALeftRed.jpg</file>
+        <file>Pictures/ALeftWhite.jpg</file>
+        <file>Pictures/ALeftYellow.jpg</file>
+        <file>Pictures/ARightGray.jpg</file>
+        <file>Pictures/ARightGrayA.jpg</file>
+        <file>Pictures/ARightGreen.jpg</file>
+        <file>Pictures/ARightRed.jpg</file>
+        <file>Pictures/ARightWhite.jpg</file>
+        <file>Pictures/ARightYellow.jpg</file>
+    </qresource>
+</RCC>

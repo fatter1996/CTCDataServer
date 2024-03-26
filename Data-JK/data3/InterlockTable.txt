@@ -1,0 +1,26 @@
+//联锁表-阿达日嘎(2.5版本)
+//序号|类型|按钮      |信号机      |道岔     |区段     |敌对信号
+//列车
+0    |LCJL|XLA,SIILA    |X     |(1)                     |IIAG,1DG,IIG                     |D1,SII;
+1    |LCJL|XLA,S3LA    |X     |1                     |IIAG,1DG,3G                     |D1,S3;
+2    |LCJL|X3LA,SLA    |X3     |(2)                     |2DG,IIBG,SJG                     |D2,S;
+3    |LCJL|XIILA,SLA    |XII     |2                     |2DG,IIBG,SJG                     |D2,S;
+4    |LCJL|SLA,X3LA    |S     |(2)                     |IIBG,2DG,3G                     |D2,X3;
+5    |LCJL|SLA,XIILA    |S     |2                     |IIBG,2DG,IIG                     |D2,XII;
+6    |LCJL|SIILA,XLA    |SII     |(1)                     |1DG,IIAG,XJG                     |D1,X;
+7    |LCJL|S3LA,XLA    |S3     |1                     |1DG,IIAG,XJG                     |D1,X;
+//延续
+//通过
+8    |TGJL|XTA,SLA    |X     |(1),2                     |IIAG,1DG,2DG,IIBG,SJG                     |D1,SII,D2,S;
+9    |TGJL|STA,XLA    |S     |2,(1)                     |IIBG,2DG,1DG,IIAG,XJG                     |D2,XII,D1,X;
+//调车
+10    |DCJL|X3DA,D2A    |X3     |(2)                     |2DG                     |D2;
+11    |DCJL|XIIDA,D2A    |XII     |2                     |2DG                     |D2;
+12    |DCJL|SIIDA,D1A    |SII     |(1)                     |1DG                     |D1;
+13    |DCJL|S3DA,D1A    |S3     |1                     |1DG                     |D1;
+14    |DCJL|D1A,SIIDA    |D1     |(1)                     |1DG                     |SII;
+15    |DCJL|D1A,S3DA    |D1     |1                     |1DG                     |S3;
+16    |DCJL|D2A,X3DA    |D2     |(2)                     |2DG                     |X3;
+17    |DCJL|D2A,XIIDA    |D2     |2                     |2DG                     |XII;
+####
+//结束标识
